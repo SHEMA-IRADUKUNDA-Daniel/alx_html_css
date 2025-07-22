@@ -3,6 +3,9 @@ body {
   flex-direction: column;
 }
 main {
+  background-color: aliceblue;
+  padding: 10px;
+  border: 1px solid black;
   display: flex;
   flex-direction: row;
   flex: auto;
@@ -17,6 +20,10 @@ aside {
 }
 .logo {
   align-items: center;
+  height: 100px;
+}
+.mainLogo {
+  width: 100px;
   height: 100px;
 }
 
