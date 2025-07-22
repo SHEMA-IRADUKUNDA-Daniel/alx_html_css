@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+aside {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.logo {
+  align-items: center;
+  height: 100px;
+}
+
+article > h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
