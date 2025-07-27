@@ -3,7 +3,12 @@
   padding: 0;
 }
 body {
-  box-sizing: border-box;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url("./images/Object.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   background-color: #071629;
   font-family: sans-serif;
 }
@@ -203,12 +208,14 @@ p {
   color: gray;
 } */
 .section4 {
+  background-color: #071629;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
   height: 500px;
-  margin: 0 80px;
+  padding: 0 80px;
   text-align: center;
   gap: 50px;
   padding-top: 50px;
@@ -264,8 +271,11 @@ h3 {
 .section6 {
   color: white;
   height: 100px;
-  margin: 90px 100px;
+  padding: 90px 100px;
   text-align: center;
+}
+footer {
+  background-color: #071629;
 }
 .socialMedias {
   display: flex;
