@@ -143,13 +143,19 @@ p {
   align-items: center;
   background-color: white;
 }
+
 .section3 > h2 {
+  font-size: 32px;
+  font-weight: 200;
   margin: 87px;
 }
 .section3Cards {
   display: flex;
   justify-content: space-around;
   margin: 0 50px;
+}
+.section3 > h2 > span {
+  color: #c271ff;
 }
 .card {
   margin: 20px;
@@ -190,18 +196,42 @@ p {
   display: flex;
 }
 .fa-solid {
+  color: #c271ff;
   font-size: 10px;
 }
+/* .fa-star {
+  color: gray;
+} */
 .section4 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   color: white;
   height: 500px;
   margin: 0 80px;
   text-align: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+.section4 > h2 > span {
+  color: #c271ff;
 }
 .membership {
   display: flex;
+}
+.membershipCard > img,
+h3 {
+  margin-top: 20px;
+}
+.section4 > button {
+  background-color: #c271ff;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 80px;
+  font-weight: 600;
+  /* margin-bottom: 100px; */
+  align-self: center;
 }
 .section5 {
   display: flex;
@@ -210,8 +240,50 @@ p {
   text-align: center;
   height: 100vh;
   justify-content: center;
+  padding: 50px;
+}
+.section5 > h2 {
+  font-size: 60px;
+  font-weight: lighter;
 }
 .faqCards {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  /* gap: 60px; */
+  text-align: left;
+  margin: 0 70px 0 70px;
+}
+.faqCards1,
+.faqCards2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.section6 {
+  color: white;
+  height: 100px;
+  margin: 90px 100px;
+  text-align: center;
+}
+.socialMedias {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+.socialMedias > div > i {
+  width: 30px;
+  height: 30px;
+}
+
+.section6 > p {
+  opacity: 50%;
+  font-weight: 400;
+  font-size: 10px;
+}
+.faqPar {
+  width: 60%;
+  opacity: 50%;
 }
