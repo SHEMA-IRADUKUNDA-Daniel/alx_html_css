@@ -1,0 +1,40 @@
+.section2 {
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  height: 70vh;
+  gap: 104px;
+}
+.icons {
+  display: flex;
+  width: 1002px;
+}
+.section2 > p {
+  width: 637px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.section2 > p {
+  line-height: 2;
+  text-align: center;
+}
