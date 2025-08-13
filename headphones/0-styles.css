@@ -43,6 +43,7 @@ a {
 }
 a:hover {
   color: #ff6565;
+  opacity: 0.9;
 }
 main {
   display: flex;
@@ -92,13 +93,5 @@ main {
 @media screen and (max-width: 768px) {
   .section1 h1 {
     font-size: 2rem;
-  }
-}
-@media screen and (max-width: 480px) {
-  ul {
-    display: none;
-  }
-  .open {
-    display: block;
   }
 }
